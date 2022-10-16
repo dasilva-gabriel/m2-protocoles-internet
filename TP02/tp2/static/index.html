@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng="en">
+<head>
+<title>Chat</title>
+<link rel="author" href="https://www.irif.fr/~jch/"/>
+<style type="text/css">
+#nick {
+    margin-left: 2em;
+}
+#box {
+    height: 24em;
+    width: 80%;
+    border: 1px solid;
+    overflow: auto;
+}
+#inputform {
+    width: 100%;
+}
+#input {
+    width: 80%;
+    border: 1px solid;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<h1>Chat</h1>
+<div id="box"></div>
+<form id="inputform">
+<input id="input" type="text" name="input"/>
+<input id="inputbutton" type="submit" value="Send"/>  
+</form>
+<script src="chat.js">
+</script>
+</body></html>
